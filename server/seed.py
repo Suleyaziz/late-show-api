@@ -1,5 +1,4 @@
-from app import app, db
-from models import Episode, Guest, Appearance
+from app import app, db, Episode, Guest, Appearance
 
 def seed_database():
     with app.app_context():

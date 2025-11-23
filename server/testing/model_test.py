@@ -1,6 +1,6 @@
 import pytest
-from server.models import Episode, Guest, Appearance
-from server.app import db
+from models import Episode, Guest, Appearance
+from app import db
 
 def test_episode_creation(client):
     with client.application.app_context():

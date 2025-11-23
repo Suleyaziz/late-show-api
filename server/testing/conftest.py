@@ -1,6 +1,6 @@
 import pytest
-from server.app import app, db
-from server.models import Episode, Guest, Appearance
+from app import app, db
+from models import Episode, Guest, Appearance
 
 @pytest.fixture
 def client():
